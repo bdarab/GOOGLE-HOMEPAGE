@@ -4,6 +4,70 @@
   padding: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-left {
+  display: flex;
+  margin-left: 2vw;
+}
+
+.nav-right {
+  display: flex;
+  margin-right: 2vw;
+  align-items: center;
+}
+
+#home {
+  margin: 1vw;
+}
+
+#store {
+  margin: 1vw;
+}
+
+#gmail {
+  margin: 1vw;
+}
+
+#images {
+  margin: 1vw;
+}
+
+#apps {
+  margin: 1vw;
+}
+
+#signin {
+  background-color: #4285f4;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+  height: 30px;
+  width: 70px;
+}
+
+.btn {
+  color: white;
+  margin: 2px 0 0 2px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
 .main-container {
   display: flex;
   flex-direction: column;
